@@ -22,7 +22,7 @@ stop_row=$3      # Stop processing at this row
 # File paths and configurations
 csv="/n/data1/hms/dbmi/gulhan/lab/ankit/scripts/mutation_calling/mutect1/tumor_normal_duplex.csv"               # Input CSV file
 out_dir="/n/data1/hms/dbmi/gulhan/lab/ankit/scripts/mutation_calling/mutect1_output"    # Output directory
-email="asingh46@mgh.harvard.edu"               # Email to receive job notifications
+email=""               # Email to receive job notifications
 
 # Reference genome and gnomAD files (ensure that the gnomAD VCF is v4.1)
 #ref_genome=/n/data1/hms/dbmi/gulhan/lab/REFERENCE/b37/Homo_sapiens_assembly19/Homo_sapiens_assembly19.fasta   # b37
